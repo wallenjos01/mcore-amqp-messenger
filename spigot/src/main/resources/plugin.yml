@@ -1,0 +1,6 @@
+main: org.wallentines.mcore.amqp.Plugin
+name: ${id}
+version: ${version}
+api-version: 1.13
+author: wallenjos01
+depend: [ midnightcore ]

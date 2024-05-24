@@ -1,0 +1,13 @@
+{
+  "id": "${id}",
+  "name": "MidnightCore AMQP Messenger",
+  "version": "${version}",
+  "url": "",
+  "authors": [
+    "wallenjos01"
+  ],
+  "dependencies":[
+    "midnightcore"
+  ],
+  "main":"org.wallentines.mcore.amqp.VelocityPlugin"
+}

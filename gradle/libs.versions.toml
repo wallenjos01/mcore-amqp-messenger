@@ -1,0 +1,25 @@
+[versions]
+junit = "5.9.1"
+mdcfg = "2.3.0"
+mdlib = "1.6.1"
+mcore = "2.0.0-pre7"
+slf4j = "2.0.11"
+jbr-anno = "24.0.1"
+rabbitmq = "5.21.0"
+
+loom = "1.6-SNAPSHOT"
+
+[libraries]
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+midnight-cfg = { module = "org.wallentines:midnightcfg-api", version.ref="mdcfg" }
+midnight-cfg-sql = { module = "org.wallentines:midnightcfg-api-sql", version.ref="mdcfg" }
+midnight-lib = { module = "org.wallentines:midnightlib", version.ref="mdlib" }
+midnight-core = { module = "org.wallentines:midnightcore-common", version.ref="mcore" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref="jbr-anno" }
+rabbitmq-client = { module = "com.rabbitmq:amqp-client", version.ref="rabbitmq" }
+
+[plugins]
+loom = { id = "fabric-loom", version.ref = "loom" }

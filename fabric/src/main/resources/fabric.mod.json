@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.wallentines.mcore.amqp.Init"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "midnightcore": "*"
+  },
+  "mixins": [ ],
+  "name": "MidnightCore AMQP Messenger",
+  "description": "Adds a messenger type to MidnightCore which uses AMQP to send and receive messages.",
+  "contact": {
+    "homepage": ""
+  },
+  "authors": [
+    {
+      "name": "wallenjos01"
+    }
+  ],
+  "license": "LGPL"
+}
