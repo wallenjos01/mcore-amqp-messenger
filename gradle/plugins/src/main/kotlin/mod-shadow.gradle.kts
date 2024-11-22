@@ -3,7 +3,7 @@ import build.plugin.Common
 plugins {
     id("java")
     id("java-library")
-    id("com.github.johnrengelman.shadow")
+    id("com.gradleup.shadow")
 }
 
 tasks {

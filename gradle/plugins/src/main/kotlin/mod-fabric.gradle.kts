@@ -7,7 +7,7 @@ plugins {
     id("java")
     id("java-library")
     id("maven-publish")
-    id("com.github.johnrengelman.shadow")
+    id("com.gradleup.shadow")
     id("fabric-loom")
 }
 

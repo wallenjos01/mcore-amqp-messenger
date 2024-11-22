@@ -14,11 +14,12 @@ Common.setupResources(project, rootProject, "velocity-plugin.json")
 
 dependencies {
 
-    implementation(project(":common"))
-    shadow(project(":common")) { isTransitive = false }
+    implementation(libs.smi.amqp)
+
+    shadow(libs.smi.amqp) { isTransitive = false }
     shadow(libs.rabbitmq.client) { isTransitive = false }
 
     compileOnly(libs.midnight.core)
 
-    compileOnly("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
+    compileOnly("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
 }

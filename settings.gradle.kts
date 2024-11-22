@@ -11,7 +11,6 @@ pluginManagement {
 
 rootProject.name = "amqp-messenger"
 
-include("common")
 include("fabric")
 include("spigot")
 include("velocity")
