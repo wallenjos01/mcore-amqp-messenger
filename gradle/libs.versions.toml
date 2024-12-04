@@ -1,11 +1,11 @@
 [versions]
 mdcfg = "2.5.0"
 mdlib = "1.7.1"
-mcore = "2.0.0-SNAPSHOT"
+mcore = "2.0.0-pre9"
 slf4j = "2.0.11"
 jbr-anno = "24.0.1"
 rabbitmq = "5.21.0"
-smi = "0.1.0-SNAPSHOT"
+smi = "0.1.0"
 
 [libraries]
 midnight-cfg = { module = "org.wallentines:midnightcfg-api", version.ref="mdcfg" }

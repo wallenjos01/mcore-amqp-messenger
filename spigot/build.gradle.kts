@@ -18,7 +18,7 @@ MultiShadow.setupShadow(project, multiVersion, 8, "1.8-1.16")
 MultiShadow.setupShadow(project, multiVersion, 17, "1.7-1.20.4")
 
 tasks.shadowJar {
-    archiveClassifier.set("1.20.5-1.21.3")
+    archiveClassifier.set("1.20.5-1.21.4")
 }
 
 dependencies {
@@ -32,5 +32,5 @@ dependencies {
 
     java8CompileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
     java17CompileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT")
-    java21CompileOnly("org.spigotmc:spigot-api:1.21.3-R0.1-SNAPSHOT")
+    java21CompileOnly("org.spigotmc:spigot-api:1.21.4-R0.1-SNAPSHOT")
 }
