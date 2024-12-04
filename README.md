@@ -11,12 +11,14 @@ An addon for the MidnightCore messenger module which allows sending messages via
   "messengers": {
     "default": {
       "type": "amqp",
-      "url": "<rabbitmq host>"
+      "hostname": "<rabbitmq host>",
+      "port": 5672
       "username": "<username>",
       "password": "<password>",
       "virtual_host": "<vhost>",
-      "durable": false,
-      "channel_expiry": 60000
+      "exchange": "<exchange>",
+      "exchange_type": "direct"
+      "durable": false
     }
   }
 }
